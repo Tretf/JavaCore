@@ -44,7 +44,7 @@ public class Main {
             System.out.println("Этап " + (course.countObstacle + 1));
             playerTime = playerTime + team[i].completeDistance(distance);
             allTime = allTime + team[i].completeDistance(distance);
-            System.out.println("Игрок прошел дистанцию за  " + String.format("%.2f", playerTime) + " минуты");
+            System.out.println("Игрок " + team[i].getName() + " прошел дистанцию за  " + String.format("%.2f", playerTime) + " минуты");
 
         }
 

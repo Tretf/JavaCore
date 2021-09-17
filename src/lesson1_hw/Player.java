@@ -4,9 +4,38 @@ import javax.xml.namespace.QName;
 
 public class Player {
 
-    public String name;
-    public double speed;
-    public double power;
+//    public String name;
+//    public double speed;
+//    public double power;
+
+    private String name;
+    private double speed;
+    private double power;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
+
+    public double getPower() {
+        return power;
+    }
+
+    public void setPower(double power) {
+        this.power = power;
+    }
+
 
     public Player(String name, int speed, int power){
         this.name = name;

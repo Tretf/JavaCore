@@ -78,10 +78,10 @@ public class Main {
         System.out.println("Вес первой коробки апельсин = " + String.format("%.2f", weightBox2));
 
 
-        Orange orange5 = new Orange((float) 1.50);
-        Orange orange6 = new Orange((float) 1.51);
-        Orange orange7 = new Orange((float) 1.52);
-        Orange orange8 = new Orange((float) 1.53);
+        Orange orange5 = new Orange(1.50f);
+        Orange orange6 = new Orange( 1.51f);
+        Orange orange7 = new Orange( 1.52f);
+        Orange orange8 = new Orange( 1.53f);
 
         Box box2_orange = new Box();
 
